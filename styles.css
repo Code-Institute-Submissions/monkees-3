@@ -1,0 +1,35 @@
+/*------BG COLOURS -------------*/
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-monkees {
+    background-color: #de2e30;
+}
+
+
+
+/*------NavBar------*/
+
+
+
+.navtext {
+
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navpadding {
+    margin: auto;
+    padding-right: 30px;
+}
+
+/* Nav Bar Text Colour */
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #edda03;
+   
+}
