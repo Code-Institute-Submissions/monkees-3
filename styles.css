@@ -1,3 +1,39 @@
+/* ---- fonts --- */
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:100,200,300,400,500,600,700');
+
+
+
+/* ----- Landing/background image ----- */
+
+.landing-image {
+    background: url(/Assets/Images/LandingImage2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+/*----- General Styles ------ */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.list-inline {
+    display: inline-flex;
+}
+
+
 /*------BG COLOURS -------------*/
 
 .bg-white {
@@ -8,14 +44,16 @@
     background-color: #de2e30;
 }
 
+.bg-section {
+    background-color: #fafafa ;
+}
 
 
 /*------NavBar------*/
 
-
-
 .navtext {
 
+    font-family: 'Comfortaa', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
@@ -28,8 +66,152 @@
 
 /* Nav Bar Text Colour */
 
-
 .navbar-light .navbar-nav .nav-link {
     color: #edda03;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active {
+    color: #f1e997;
+
+}
+
+/* - ------ footer ------ */
+
+.footer-properties {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.social-links {
+    margin-top: 16px;
+    font-size: 20px;
+    color: #edd704;
+
+}
+
+
+.social-links li a i {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 30%;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #de2e30;
+    background: #edd704;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    
+    background-color: #f1e997;
+}
+
+.footer-text {
+    margin-right: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    color: #edda03;
+
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    color: #f1e997;
+
+}
+
+.footer-text p {
+    margin-bottom: 0;
+    
+}
+
+/* ---- modal ----*/
+
+
+
+.modal-dialog {
+    z-index: 1;
+}
+
+.modal-backdrop {
+    position:inherit;
+}
+
+.btn-link {
+    color:#edda03;
+    text-decoration: none;
+    margin-top:16px;
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+    color:#f1e997;
+    text-decoration: none;
    
+}
+ 
+.btn-submit {
+    background-color:#de2e30;
+    color: #edda03;
+    border-color: transparent;
+    border:none;
+}
+
+
+.btn-submit:hover,
+.btn-submit:active,
+.btn-submit:focus {
+    background-color:#d24749;
+    color: #f1e997;
+    border-color: transparent;
+    border: none;
+    box-shadow:none;
+}
+
+.text-muted {
+    font-style: italic;
+}
+
+.modal-text {
+   font-family: 'Comfortaa', sans-serif;
+}
+
+
+/* --- contact page ---*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    width:50%;
+    
+}
+
+.contact-button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container-padding {
+    padding: 0;
+}
+
+.banner-properties {
+    padding-top: 20px;
+    height:33vh;
+    margin:auto;
+    max-width: 100%;
 }
