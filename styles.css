@@ -90,7 +90,23 @@ body {
 
 }
 
-.fixed-footer-properties {
+.index-footer-properties {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin-top: 20px; 
+    }
+
+
+
+
+
+/* --- footer position for pages with less content --- */
+
+
+
+.fixed-footer-properties {    /* making so footer doesnt overlap content on mobile  */
     position: relative;
     left: 0;
     bottom: 0;
@@ -111,6 +127,9 @@ body {
 
 
 
+/* --- footer styles --- */
+    
+    
     .social-links {
         margin-top: 16px;
         font-size: 20px;
@@ -237,7 +256,8 @@ body {
         max-width: 100%;
     }
 
-    .contact-text-properties {
+    .contact-text-properties,
+    .video-text-properties {
         font-family: 'Comfortaa', sans-serif;
         padding-top: 20px;
         margin-left: 10px;
@@ -251,20 +271,14 @@ body {
 
     /* ------ About Page --- */
     .about-banner-properties {
-        height: 25vh;
         padding-top: 20px;
+        height: 33vh;
         margin: auto;
         max-width: 100%;
     }
 
-    .profile-images {
-        height: 122px;
-        width: 160px;
-        padding-top: 20px;
-        margin: auto;
-    }
 
-    hr.style-one {
+    .style-one {                 /* line break style */
         border: 0;
         height: 1px;
         width: 70%;
@@ -279,3 +293,58 @@ body {
     .album-links:hover {
         text-decoration: none;
     }
+
+
+
+/* -- videos --- */
+
+.video-styles {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+ .video-subheading-properties {
+    padding-bottom: 10px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.video-title-text {
+    font-family: 'Comfortaa', sans-serif;
+    padding-top: 30px;
+}
+
+.video-padding {
+    padding-top: 20px;
+}
+
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	padding-right: 20px;
+	height: 0;
+	margin-right:30px;
+	margin-left:30px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 95%;
+	height: 95%;
+
+}
+
+.video-song-links {
+    margin-bottom:40px;
+}
+
+
+
+.video-song-links:hover {
+    text-decoration: none;
+}
