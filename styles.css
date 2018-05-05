@@ -115,7 +115,7 @@ body {
 
 }
 
-@media (min-width: 576px) {
+@media (min-width:1200px) {
     .fixed-footer-properties {
         position: fixed;
         left: 0;
@@ -310,7 +310,8 @@ body {
     font-family: 'Comfortaa', sans-serif;
 }
 
-.video-title-text {
+.video-title-text,
+.music-title-text{
     font-family: 'Comfortaa', sans-serif;
     padding-top: 30px;
 }
@@ -348,3 +349,41 @@ body {
 .video-song-links:hover {
     text-decoration: none;
 }
+
+
+/* -- Music page --*/
+
+.music-player-padding {
+    margin-top: 15px;
+    margin-bottom:5px;
+    
+    
+}
+
+.music-icon-style {
+    padding-right: 5px;
+}
+
+.music-links {
+    margin-bottom:10px;
+    font-style: italic;
+    color: #6c757d
+}
+
+.music-links:hover {
+    
+    color:#b8bcbf;
+}
+
+.music-link-style:hover {
+    text-decoration: none;
+    
+}
+
+.music-signup-heading {
+    
+        font-family: 'Comfortaa', sans-serif;
+        padding-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
