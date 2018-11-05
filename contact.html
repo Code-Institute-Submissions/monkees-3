@@ -70,7 +70,7 @@
 
 
         <div class="center-form form-group">
-            <form action="placeholder_page.php">
+            <form>
 
                 <div class="form-group form-properties">
                     <label for="name">Full Name:</label>
@@ -89,7 +89,7 @@
                 </div>
 
                 <textarea rows="5" name="eventsummar" class="form-control" id="eventsummar" placeholder="Event Summary. Please include details such as dates and location and we will contact you with a quote." required></textarea>
-                <button type="submit" class="btn btn-submit contact-button text-center">Submit event details</button>
+                <button class="btn btn-submit contact-button text-center">Submit event details</button> <!-- this button currently isnt functioning as this is a static front end only -->
             </form>
         </div>
 
@@ -151,7 +151,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-submit">Submit</button>
+                                <button type="button" class="btn btn-submit" data-dismiss="modal">Submit</button> <!-- set submit button to just close, as this is a static front end -->
                             </div>
                         </div>
                     </div>
